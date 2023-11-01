@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>OYO不負責設計網站</title>
+    <!-- <link rel="icon" href="./images/favicon.ico" /> -->
+    <link rel="icon" href="./images/DENG.svg" />
+    <!-- CSS文件載入 -->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- js文件載入 -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="containerMargin">
+      <!-- header/start -->
+      <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="index.html">
+            <svg
+              id="Logo_Deng"
+              data-name="Logo_Deng"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 256 256"
+            >
+              <polygon
+                class="cls-1"
+                points="8.42 8.74 8.42 249.26 125.62 249.26 125.62 204.29 92.23 204.29 199.88 153.7 199.88 249.26 247.58 249.26 247.58 104.13 198.52 104.13 55.43 168.86 55.43 56.43 199.2 56.43 199.2 88.46 247.58 88.46 247.58 8.74 8.42 8.74"
+              />
+            </svg>
+            <!-- <img src="./images/logo.png" alt="logo" /> -->
+            <!-- <img class="Logo_DENG" src="./images/DENG.svg" alt="logo" /> -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >首頁</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">關於OYO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">作品商城</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./job.html">人力資源</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">聯絡OYO</a>
+              </li>
+            </ul>
+            <ul
+              class="list-unstyled list-inline ms-auto mt-2 mt-lg-0 mb-lg-0 shop-menu"
+            >
+              <li class="list-inline-item">
+                <a href="./login.html"
+                  ><img
+                    class="item_icon"
+                    src="./images/icon/user.png"
+                    alt="login"
+                /></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="./cart.html"
+                  ><img
+                    class="item_icon"
+                    src="./images/icon/shopping-cart.png"
+                    alt="shopping-cart"
+                /></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="./checkout.html"
+                  ><img
+                    class="item_icon"
+                    src="./images/icon/shopping-bag.png"
+                    alt="Buying"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <!-- header/end -->
+    <!-- 廣告/start -->
+    <section class="banners">
+      <div id="carouselBanner" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carouselBanner"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li
+            data-bs-target="#carouselBanner"
+            data-bs-slide-to="1"
+            class="active"
+          ></li>
+          <li
+            data-bs-target="#carouselBanner"
+            data-bs-slide-to="2"
+            class="active"
+          ></li>
+        </ol>
+        <div class="carousel_AAA">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/slider_01.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block text-dark">
+                <h3>嚶嚶蛋表情貼</h3>
+                <p>依國際表情貼設計規範製作</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/slider_02.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block text-dark">
+                <h3>嚶嚶蛋貼圖</h3>
+                <p>依國際人物貼圖設計規範製作</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/slider_03.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block text-dark">
+                <h3>小啾狸貼圖</h3>
+                <p>依國際動物貼圖設計協會規範製作</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          href="#carouselBanner"
+          class="carousel-control-prev"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a
+          href="#carouselBanner"
+          class="carousel-control-next"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- 廣告/end -->
+    <!-- 產品分類/start -->
+    <section class="container mt-5" style="margin-top: 10px">
+      <h2>作品分類</h2>
+      <p>
+        OYO不負責設計網站製作許多自己喜歡而做的不同作品，若有喜歡的歡迎來電詢問喔。
+      </p>
+      <div
+        class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 product-categories"
+      >
+        <div class="col">
+          <a href="./shop.html" class="card">
+            <img
+              src="./images/services_01.png"
+              alt="無臉畫/似顏繪"
+              class="card-img-top"
+            />
+            <div class="card-body bg-dark">
+              <h4 class="mb-0 text-white text-center">無臉畫/似顏繪</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="./shop.html" class="card">
+            <img
+              src="./images/services_02.png"
+              alt="貼圖/表情貼"
+              class="card-img-top"
+            />
+            <div class="card-body bg-dark">
+              <h4 class="mb-0 text-white text-center">貼圖/表情貼</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="./shop.html" class="card">
+            <img
+              src="./images/services_03.png"
+              alt="卡片設計手作"
+              class="card-img-top"
+            />
+            <div class="card-body bg-dark">
+              <h4 class="mb-0 text-white text-center">卡片設計手作</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="./shop.html" class="card">
+            <img
+              src="./images/services_04.png"
+              alt="海報設計製作"
+              class="card-img-top"
+            />
+            <div class="card-body bg-dark">
+              <h4 class="mb-0 text-white text-center">海報設計製作</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- 產品分類/end -->
+    <!-- 熱門產品/start -->
+    <section class="container mt-5" style="margin-top: 10px">
+      <div class="row">
+        <div class="mb-2">
+          <h2>熱門產品</h2>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="card mb-3">
+            <img
+              src="./images/product2/eva_1.png"
+              alt="情侶鞦韆"
+              class="card-img-top"
+            />
+            <div class="card-title">
+              <div class="card-body">
+                <h4>無臉畫-情侶鞦韆</h4>
+                <p class="card-text">
+                  拍攝地點：將軍好宅<br />標籤：#illustrator #sketchbook
+                </p>
+                <h5 class="card-text text-danger">
+                  <small class="text-secondary me-2">
+                    <del>NT$&nbsp;600</del> </small
+                  >NT$&nbsp;520
+                </h5>
+                <div class="d-grid gap-2">
+                  <a href="product.html" class="btn btn-outline-secondary"
+                    >查看商品</a
+                  >
+                  <a href="cart.html" class="btn btn-outline-primary"
+                    >加入購物車</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="card mb-3">
+            <img
+              src="./images/product2/eva_2.png"
+              alt="情侶月亮"
+              class="card-img-top"
+            />
+            <div class="card-title">
+              <div class="card-body">
+                <h4>無臉畫-情侶月亮</h4>
+                <p class="card-text">
+                  拍攝地點：大坑紙箱王<br />標籤：#illustrator #sketchbook
+                </p>
+                <h5 class="card-text text-danger">NT$&nbsp;600</h5>
+                <div class="d-grid gap-2">
+                  <a href="product.html" class="btn btn-outline-secondary"
+                    >查看商品</a
+                  >
+                  <a href="cart.html" class="btn btn-outline-primary"
+                    >加入購物車</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="card mb-3">
+            <img
+              src="./images/product2/eva_3.png"
+              alt="情侶畢業服"
+              class="card-img-top"
+            />
+            <div class="card-title">
+              <div class="card-body">
+                <h4>無臉畫-情侶畢業服</h4>
+                <p class="card-text">
+                  拍攝地點：蘭陽博物館<br />標籤：#illustrator #sketchbook
+                </p>
+                <h5 class="card-text text-danger">NT$&nbsp;600</h5>
+                <div class="d-grid gap-2">
+                  <a href="product.html" class="btn btn-outline-secondary"
+                    >查看商品</a
+                  >
+                  <a href="cart.html" class="btn btn-outline-primary"
+                    >加入購物車</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="card mb-3">
+            <img
+              src="./images/product2/eva_4.png"
+              alt="情侶日月潭"
+              class="card-img-top"
+            />
+            <div class="card-title">
+              <div class="card-body">
+                <h4>無臉畫-情侶日月潭</h4>
+                <p class="card-text">
+                  拍攝地點：日月潭<br />標籤：#illustrator #sketchbook
+                </p>
+                <h5 class="card-text text-danger">NT$&nbsp;600</h5>
+                <div class="d-grid gap-2">
+                  <a href="product.html" class="btn btn-outline-secondary"
+                    >查看商品</a
+                  >
+                  <a href="cart.html" class="btn btn-outline-primary"
+                    >加入購物車</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="card mb-3">
+            <img
+              src="./images/product2/eva_5.png"
+              alt="情侶瀑布"
+              class="card-img-top"
+            />
+            <div class="card-title">
+              <div class="card-body">
+                <h4>無臉畫-情侶瀑布</h4>
+                <p class="card-text">
+                  拍攝地點：五峰旗瀑布<br />標籤：#illustrator #sketchbook
+                </p>
+                <h5 class="card-text text-danger">NT$&nbsp;600</h5>
+                <div class="d-grid gap-2">
+                  <a href="product.html" class="btn btn-outline-secondary"
+                    >查看商品</a
+                  >
+                  <a href="cart.html" class="btn btn-outline-primary"
+                    >加入購物車</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="card mb-3">
+            <img
+              src="./images/product2/eva_6.png"
+              alt="情侶紅磚"
+              class="card-img-top"
+            />
+            <div class="card-title">
+              <div class="card-body">
+                <h4>無臉畫-情侶紅磚</h4>
+                <p class="card-text">
+                  拍攝地點：宜蘭傳藝中心<br />標籤：#illustrator #procreate
+                </p>
+                <h5 class="card-text text-danger">NT$&nbsp;600</h5>
+                <div class="d-grid gap-2">
+                  <a href="product.html" class="btn btn-outline-secondary"
+                    >查看商品</a
+                  >
+                  <a href="cart.html" class="btn btn-outline-primary"
+                    >加入購物車</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="card mb-3">
+            <img
+              src="./images/product2/eva_7.png"
+              alt="情侶天空"
+              class="card-img-top"
+            />
+            <div class="card-title">
+              <div class="card-body">
+                <h4>無臉畫-情侶天空</h4>
+                <p class="card-text">
+                  拍攝地點：花蓮天空之鏡<br />標籤：#illustrator #procreate
+                </p>
+                <h5 class="card-text text-danger">NT$&nbsp;600</h5>
+                <div class="d-grid gap-2">
+                  <a href="product.html" class="btn btn-outline-secondary"
+                    >查看商品</a
+                  >
+                  <a href="cart.html" class="btn btn-outline-primary"
+                    >加入購物車</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="card mb-3">
+            <img
+              src="./images/product2/eva_8.png"
+              alt="情侶風車"
+              class="card-img-top"
+            />
+            <div class="card-title">
+              <div class="card-body">
+                <h4>無臉畫-情侶風車</h4>
+                <p class="card-text">
+                  拍攝地點：六號小島<br />標籤：#illustrator #procreate
+                </p>
+                <h5 class="card-text text-danger">NT$&nbsp;600</h5>
+                <div class="d-grid gap-2">
+                  <a href="product.html" class="btn btn-outline-secondary"
+                    >查看商品</a
+                  >
+                  <a href="cart.html" class="btn btn-outline-primary"
+                    >加入購物車</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="card mb-3">
+            <img
+              src="./images/product2/eva_9.png"
+              alt="情侶教堂"
+              class="card-img-top"
+            />
+            <div class="card-title">
+              <div class="card-body">
+                <h4>無臉畫-情侶教堂</h4>
+                <p class="card-text">
+                  拍攝地點：路思義教堂<br />標籤：#illustrator #procreate
+                </p>
+                <h5 class="card-text text-danger">NT$&nbsp;600</h5>
+                <div class="d-grid gap-2">
+                  <a href="product.html" class="btn btn-outline-secondary"
+                    >查看商品</a
+                  >
+                  <a href="cart.html" class="btn btn-outline-primary"
+                    >加入購物車</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="card mb-3">
+            <img
+              src="./images/product2/eva_10.png"
+              alt="情侶海灘"
+              class="card-img-top"
+            />
+            <div class="card-title">
+              <div class="card-body">
+                <h4>無臉畫-情侶教堂</h4>
+                <p class="card-text">
+                  拍攝地點：中國<br />標籤：#illustrator #procreate
+                </p>
+                <h5 class="card-text text-danger">NT$&nbsp;600</h5>
+                <div class="d-grid gap-2">
+                  <a href="product.html" class="btn btn-outline-secondary"
+                    >查看商品</a
+                  >
+                  <a href="cart.html" class="btn btn-outline-primary"
+                    >加入購物車</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="card mb-3">
+            <img
+              src="./images/product2/eva_11.png"
+              alt="情侶生活"
+              class="card-img-top"
+            />
+            <div class="card-title">
+              <div class="card-body">
+                <h4>無臉畫-情侶生活</h4>
+                <p class="card-text">
+                  拍攝地點：居家<br />標籤：#illustrator #procreate
+                </p>
+                <h5 class="card-text text-danger">NT$&nbsp;600</h5>
+                <div class="d-grid gap-2">
+                  <a href="product.html" class="btn btn-outline-secondary"
+                    >查看商品</a
+                  >
+                  <a href="cart.html" class="btn btn-outline-primary"
+                    >加入購物車</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="card mb-3">
+            <img
+              src="./images/product2/eva_12.png"
+              alt="情侶夜空"
+              class="card-img-top"
+            />
+            <div class="card-title">
+              <div class="card-body">
+                <h4>無臉畫-情侶夜空</h4>
+                <p class="card-text">
+                  拍攝地點：空ㄟ農場<br />標籤：#illustrator #procreate
+                </p>
+                <h5 class="card-text text-danger">NT$&nbsp;600</h5>
+                <div class="d-grid gap-2">
+                  <a href="product.html" class="btn btn-outline-secondary"
+                    >查看商品</a
+                  >
+                  <a href="cart.html" class="btn btn-outline-primary"
+                    >加入購物車</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 熱門產品/end -->
+    <!-- 關於岡南/start -->
+    <section class="container mt-5">
+      <h2>關於OYO</h2>
+      <p>
+        OYO誕生於西元1996年，前生為哥吉拉，雖然是個工程師，但熱愛畫畫跟設計。<br />從第二戰到現在，我成為了一名不屈不撓的主角。我的故事充滿了連續的挑戰和勝利，塑造了一個不可思議的紀錄。
+        當我踏上這個旅程的開始時，我是一個毫不起眼的角色，但我有一顆堅定的心。我在戰場上經歷了無數次的困難，每一次都像是生命的考驗。然而，這些挫折都沒能擊倒我，反而讓我變得更加堅強。
+        我記得那次關鍵的一戰，當我們的隊伍面臨著敵人的強大壓力。我們處於絕境，但我不放棄。在那一刻，我找到了一個不可思議的力量，突破了自己的極限，最終贏得了勝利。這是我生命中最重要的時刻之一。
+        隨著時間的推移，我不斷成長，學會了更多技巧和策略，我變得越來越強大。我的連續紀錄也持續不斷增長，獲得了更多的讚譽和尊重。
+        從第一戰到現在，我的故事不僅是一個人的成長，也是堅持不懈、克服困難和取得勝利的故事。我永遠不會停下來，繼續前進，挑戰更多的戰場，創造更多的紀錄。我的冒險將繼續下去，永不結束。
+      </p>
+    </section>
+    <!-- 關於岡南/end -->
+    <!-- google map/start -->
+    <section class="mt-5">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14459.140242398866!2d121.55740797422092!3d25.041367376798384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abb6e9d93249%3A0xd508f7b3aa02d931!2sTaipei%20101%20Observatory!5e0!3m2!1sen!2stw!4v1698821593978!5m2!1sen!2stw"
+        class="map"
+      ></iframe>
+    </section>
+    <!-- google map/end -->
+    <!-- 頁腳/start -->
+    <footer class="bg-dark">
+      <div class="container pt-3 pt-md-5">
+        <div class="row">
+          <!-- 選單連結/start -->
+          <div class="col-md-6 mb-3">
+            <ul class="footer-menu">
+              <li><a href="index.html">首頁</a></li>
+              <li><a href="about.html">關於OYO</a></li>
+              <li><a href="product.html">產品商城</a></li>
+              <li><a href="job.html">人力資源</a></li>
+              <li><a href="contact.html">聯絡OYO</a></li>
+              <li><a href="login.html">登入</a></li>
+              <li><a href="cart.html">購物車</a></li>
+              <li><a href="checkout.html">結帳</a></li>
+            </ul>
+          </div>
+          <!-- 選單連結/end -->
+          <!-- 訂閱/start -->
+          <div class="col-md-6 mb-3">
+            <h6 class="text-white">
+              留下 E-mail，訂閱OYO，可搶先獲得最新的資訊喔！
+            </h6>
+            <form action="">
+              <input
+                type="email"
+                class="form-control mt-3 mb-2"
+                placeholder="請輸入e-mail"
+              />
+              <button type="submit" class="btn btn-primary float-end send-btn">
+                傳送
+              </button>
+            </form>
+          </div>
+          <!-- 訂閱/end -->
+          <!-- 版權所有/start -->
+          <div class="mt-3">
+            <p class="text-white text-center">(c) Copyrights 2023 OYO</p>
+          </div>
+          <!-- 版權所有/end -->
+        </div>
+      </div>
+    </footer>
+    <!-- 頁腳/end -->
+  </body>
+</html>
